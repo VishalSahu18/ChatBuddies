@@ -28,26 +28,26 @@ Authentication & Authorization:
 JWT (JSON Web Tokens): For secure token-based authentication.
 Cookie Parser: Middleware for parsing cookies and managing sessions.
 Installation and Setup
-Clone the repository:
 
-bash
+## Clone the repository:
 
+```
 git clone https://VishalSahu18/Chat-Application.git
 cd Chat-Application
-Install dependencies:
+```
+## Install dependencies:
 
 **Backend:**
 
-bash
-cd backend
+```
 npm install
-
+```
 **Frontend:**
 
-bash
+```
 cd frontend
 npm install
-
+```
 **Environment Variables:**
 Create a .env file in the backend directory and add your environment variables (e.g., database URL, JWT secret).
 
@@ -55,14 +55,13 @@ Create a .env file in the backend directory and add your environment variables (
 
 **Backend:**
 
-bash
-cd backend
+```
 npm run server
-
+```
 **Frontend:**
-cd frontend
+```cd frontend
 npm run dev
-
+```
 **Access the Application:**
 Open your browser and navigate to http://localhost:3000.
 
