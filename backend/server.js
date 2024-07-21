@@ -1,5 +1,6 @@
 // const express = require('express');
 // const dotenv = require('dotenv');
+import path from "path";
 import express from "express";// for using the import we have to add "type":"module" in package.json file
 import dotenv from "dotenv";
 import authRoutes from './routes/authRoutes.js'
@@ -8,14 +9,15 @@ import userRoutes from './routes/userRoutes.js'
 import cors from 'cors';
 import connectToMongoDB from "./db/connectMongoDB.js";
 import cookieParser from "cookie-parser";
+
 import { app ,server } from "./socket/socket.js";
 
 dotenv.config();
 
-// app.use(cors({
-//     origin: 'http://localhost:3000'
-//   }));
+
 const PORT = process.env.PORT || 5000;
+
+const __dirname = path.resolve();
 
 
 
@@ -26,10 +28,14 @@ app.use("/api/auth",authRoutes);
 app.use("/api/messages",MessageRoutes);
 app.use("/api/users",userRoutes);
 
-// app.get("/",(req,res)=>{
-//      root route http://localhost:5000/
-//     res.send("Hello World!!!");
-// })
+
+app.use(express.static(path.join(__dirname,"/frontend/dist")));
+
+app.get("*",(req,res)=>{
+  res.sendFile(path.join(__dirname,"frontend","dist","index.html"));
+})
+
+
 
 
 server.listen(PORT,() => {
