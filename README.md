@@ -65,5 +65,5 @@ npm run dev
 **Access the Application:**
 Open your browser and navigate to http://localhost:3000.
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
