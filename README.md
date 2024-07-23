@@ -1,4 +1,4 @@
-# Chat-Application
+# Chat-Buddies
 
 This repository contains a full-stack chat application built using the MERN stack (MongoDB, Express, React, Node.js) with additional technologies for enhanced functionality and user experience.
 
