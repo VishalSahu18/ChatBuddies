@@ -11,13 +11,13 @@ This repository contains a full-stack chat application built using the MERN stac
 
 **Technologies Used**
 
-**Backend:**
+**Backend:** <br/>
 Node.js: JavaScript runtime environment.<br/>
 Express: Fast, unopinionated, minimalist web framework for Node.js.<br/>
 MongoDB: NoSQL database for storing user data and chat history.<br/>
 Socket.io: Enables real-time bidirectional event-based communication.<br/>
 
-**Frontend:**
+**Frontend:** <br/>
 React: JavaScript library for building user interfaces.<br/>
 Zustand: Small, fast, and scalable state management solution.<br/>
 Tailwind CSS: Utility-first CSS framework for rapid UI development.<br/>
