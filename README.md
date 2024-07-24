@@ -25,7 +25,7 @@ Zustand: Small, fast, and scalable state management solution.<br/>
 Tailwind CSS: Utility-first CSS framework for rapid UI development.<br/>
 DaisyUI: UI component library based on Tailwind CSS.<br/>
 
-Authentication & Authorization:<br/>
+**Authentication & Authorization:** <br/>
 JWT (JSON Web Tokens): For secure token-based authentication.<br/>
 Cookie Parser: Middleware for parsing cookies and managing sessions.<br/>
 
