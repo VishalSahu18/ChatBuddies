@@ -27,7 +27,8 @@ Authentication & Authorization:
 
 JWT (JSON Web Tokens): For secure token-based authentication.
 Cookie Parser: Middleware for parsing cookies and managing sessions.
-Installation and Setup
+
+## Installation and Setup
 
 ## Clone the repository:
 
