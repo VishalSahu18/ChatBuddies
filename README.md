@@ -3,10 +3,11 @@
 This repository contains a full-stack chat application built using the MERN stack (MongoDB, Express, React, Node.js) with additional technologies for enhanced functionality and user experience.
 
 **Features:**
-Real-time Communication: Implemented using Socket.io for seamless and instant message exchange.
-State Management: Powered by Zustand, providing a simple and scalable solution for state management in React.
-Authentication: Utilizes JWT tokens for secure user authentication and Cookie Parser for managing user sessions.
-Styling: Styled with Tailwind CSS and DaisyUI for a modern and responsive user interface.
+
+**Real-time Communication:** Implemented using Socket.io for seamless and instant message exchange.
+**State Management:** Powered by Zustand, providing a simple and scalable solution for state management in React.
+**Authentication:** Utilizes JWT tokens for secure user authentication and Cookie Parser for managing user sessions.
+**Styling:** Styled with Tailwind CSS and DaisyUI for a modern and responsive user interface.
 
 **Technologies Used**
 
