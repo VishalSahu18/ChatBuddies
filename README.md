@@ -27,6 +27,25 @@ DaisyUI: UI component library based on Tailwind CSS.<br/>
 JWT (JSON Web Tokens): For secure token-based authentication.<br/>
 Cookie Parser: Middleware for parsing cookies and managing sessions.<br/>
 
+
+*Login Interface*
+
+
+![loginPage](https://github.com/user-attachments/assets/09c75bf3-4c03-4139-bc0d-634b7587b07c)
+
+
+*Signup Interface*
+
+![singupPage](https://github.com/user-attachments/assets/1dd4a0cd-722c-43ac-b961-296be23d396f)
+
+
+*Chat Window*
+
+
+![chatPage](https://github.com/user-attachments/assets/245000f5-4e90-4aee-becd-e34ba724e589)
+
+
+
 ## Installation and Setup
 
 ## Clone the repository:
